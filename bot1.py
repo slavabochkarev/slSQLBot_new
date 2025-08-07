@@ -4,6 +4,8 @@ import psycopg2
 from dotenv import load_dotenv
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
+import sys
+print(f"🔧 Python version: {sys.version}")
 
 # Загружаем переменные окружения
 load_dotenv()
